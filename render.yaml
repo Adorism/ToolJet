@@ -29,7 +29,6 @@ services:
           envVarKey: RENDER_EXTERNAL_URL
       - key: PORT
         value: 80
-      - fromGroup: tooljet-preview-env
   - type: web
     name: PostgREST
     env: docker
