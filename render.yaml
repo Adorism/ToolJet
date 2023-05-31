@@ -29,6 +29,8 @@ services:
           envVarKey: RENDER_EXTERNAL_URL
       - key: PORT
         value: 80
+      - key: TOOLJET_DB_USER
+        value: admin
   - type: web
     name: PostgREST
     env: docker
